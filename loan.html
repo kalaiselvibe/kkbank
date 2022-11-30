@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KK BANKS KK</title>
+    <link rel="stylesheet" href="../../boost/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css1.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" class="scrollspy-example">
+    <nav id=" navbar-exaple2" class="navbar  navbar-expand-lg navbar-dark bg-primary px-3 sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">KK BANK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./home1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Loan">Loan</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Details
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./bankacc.html">Bank Account Opening Form</a></li>
+                            <li><a class="dropdown-item" href="./credit.html">Credit Card Application Form</a></li>
+                            <li><a class="dropdown-item" href="./depit.html">Debit Card Application Form</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success text-danger  btn-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <a class="nav-link" href="./home1.html">Back</a>
+    <h1>Loan Application Form</h1>
+    <label>Desired loan amount</label>
+    <div class="row">
+        <input type="text" class="form-control" placeholder="Amount">
+    </div>
+    <br>
+    <label>Annual Income</label>
+    <div class="row">
+        <input type="text" class="form-control" placeholder="Amount">
+    </div><br>
+    <h6>What will the loan be used for?</h6>
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">Business loan</option>
+        <option value="2">Marriage Loan</option>
+        <option value="3">Personal Loan</option>
+        <option value="4">Education Loan</option>
+        <option value="5">Home Improvement Loan</option>
+    </select><br>
+    <label>Name</label>
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+        </div>
+    </div><br>
+    <label>Date</label>
+    <div class="row">
+        <input type="datetime-local" class="form-control" placeholder="dd/mm/yy">
+    </div><br>
+    <label>Address</label>
+    <div class="row">
+        <input type="text" class="form-control" placeholder="Street Address">
+    </div>
+    <br>
+    <div class="row">
+        <input type="text" class="form-control" placeholder="Street Address Line 2">
+    </div><br>
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="City" aria-label="City">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Region" aria-label="Region">
+        </div>
+    </div><br>
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Postal/Zip Code" aria-label="Postal/Zip Code">
+        </div>
+        <div class="col">
+            <select class="form-select" aria-label="Default select example">
+
+                <option value="1">Mumbai</option>
+                <option value="2" selected>India</option>
+                <option value="3">Delhi</option>
+            </select>
+        </div><br><br>
+        <label>Email</label>
+        <div class="row">
+            <input type="text" class="form-control" placeholder="Email" aria-label="@gmail.com">
+        </div><br><br>
+        <label>Phone</label>
+        <div class="row">
+            <input type="number" class="form-control" placeholder="#########">
+        </div><br>
+        &nbsp;<h6>I hear by acknowledge that i have read and understood the terms and conditions as
+            provided
+            overleaf and i agree to the same.</h6>
+        <div class="row">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate">
+                    <h6>I agree to the terms of service.</h6>
+                </label>
+            </div>
+        </div><br>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
